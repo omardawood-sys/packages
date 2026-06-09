@@ -1,6 +1,3 @@
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 Pod::Spec.new do |s|
   s.name             = 'image_picker_ios'
   s.version          = '0.0.1'
@@ -12,7 +9,7 @@ Downloaded by pub (not CocoaPods).
   s.homepage         = 'https://github.com/flutter/packages'
   s.license          = { :type => 'BSD', :file => '../LICENSE' }
   s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
-  s.source           = { :http => 'https://github.com/flutter/packages/tree/main/packages/image_picker_ios' }
+  s.source           = { :path => '.' }   # ← only this line changes
   s.documentation_url = 'https://pub.dev/packages/image_picker_ios'
   s.source_files = 'image_picker_ios/Sources/image_picker_ios/**/*.{h,m}'
   s.public_header_files = 'image_picker_ios/Sources/image_picker_ios/**/*.h'
